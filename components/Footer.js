@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Logo & About */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <h2 className="text-white font-bold text-lg">Team Studio</h2>
+            <h2 className="text-white font-bold text-lg">Alpha Coders</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-xs text-gray-500">
             We are a passionate team of web developers crafting modern,
@@ -58,7 +58,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-4 py-6 text-xs text-gray-500">
-        <p>© 2025 Secure Haven Team. All rights reserved.</p>
+        <p>© 2025 Alpha Coders. All rights reserved.</p>
         <div className="flex gap-6">
           <a href="#" className="hover:text-cyan-400 transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-cyan-400 transition-colors">Terms of Service</a>

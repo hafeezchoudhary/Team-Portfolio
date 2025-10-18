@@ -31,7 +31,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <span className="text-white font-bold text-2xl md:text-3xl hover:text-cyan-300 transition cursor-pointer">
-                        Team Studio
+                        Alpha Coders
                     </span>
                 </div>
 
