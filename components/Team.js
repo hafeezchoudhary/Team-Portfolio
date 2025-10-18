@@ -7,10 +7,10 @@ const Team = () => {
             role: "Lead Full-Stack Developer",
             description:
                 "Leads the team in building scalable web solutions using React, Node.js, Express, and MongoDB. Skilled in managing both frontend and backend workflows.",
-            skills: ["React", "Node.js", "JavaScript", "MongoDB", "Express", "Tailwind CSS"],
-            github: "https://github.com/Hafeez-Choudhary",
+            skills: ["React", "Next.js" , "Node.js", "JavaScript", "MongoDB", "Express", "Tailwind CSS"],
+            github: "https://github.com/hafeezchoudhary",
             linkedin: "https://www.linkedin.com/in/hafeez-choudhary/",
-            resume: "https://drive.google.com/uc?export=download&id=1ch7XlMr8AgwyoJBHGemzmoncYgFKelLS", // 📌 Place file in public/resumes/
+            resume: "https://drive.google.com/file/d/1VqernujDJXgNSgEvPpvvv4Il1VvKz6zj/view?usp=drive_link",
         },
         {
             name: "Saurabh Khajekar",
@@ -18,6 +18,7 @@ const Team = () => {
             description:
                 "Provides technical assistance, resolves user issues, and ensures smooth communication between clients and the development team for efficient problem-solving.",
             skills: ["Assist", "Communication"],
+            linkedin: "https://www.linkedin.com/in/saurabh-khajekar-a05596310/",
             resume: "/resumes/saurabh_resume.pdf",
         },
         {
@@ -26,6 +27,7 @@ const Team = () => {
             description:
                 "Designs modern, user-friendly interfaces with Figma, Adobe XD, and Tailwind CSS, focusing on seamless user experience.",
             skills: ["Figma", "Design Systems", "User Research", "Tailwind CSS", "Accessibility"],
+            linkedin: "https://www.linkedin.com/in/niraj-patil-593a3228b/",
             resume: "/resumes/niraj_resume.pdf",
         },
     ];
