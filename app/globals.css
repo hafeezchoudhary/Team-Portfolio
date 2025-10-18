@@ -4,3 +4,16 @@
   scroll-behavior: smooth;
 }
 
+@keyframes bounceArrow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.bounce-arrow {
+  animation: bounceArrow 1s infinite ease-in-out;
+}
+

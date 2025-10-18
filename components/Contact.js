@@ -47,10 +47,10 @@ const Contact = () => {
 
     return (
         <>
-            <div id="contact" className="scroll-mt-20 flex flex-col items-center min-h-screen px-4 py-10 bg-[#060a16]">
+            <div id="contact" className="scroll-mt-20 flex flex-col items-center px-4 py-10 bg-[#060a16]">
                 <ToastContainer position='top-right' theme='dark' autoClose={2000} />
                 <div className="text-center">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cyan-400 mb-6">
+                    <h1 className=" text-4xl sm:text-5xl md:text-6xl font-bold text-cyan-400 mb-6">
                         Get in Touch
                     </h1>
                     <p className="text-slate-400 text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto px-2">

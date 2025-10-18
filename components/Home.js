@@ -1,7 +1,6 @@
 "use client";
 import React from 'react'
 import { FaCode } from "react-icons/fa";
-import { FiZap } from "react-icons/fi";
 import { FaUsers } from "react-icons/fa";
 import { FiChevronDown } from "react-icons/fi";
 import { MdColorLens } from "react-icons/md"; 
@@ -29,7 +28,7 @@ const Home = () => {
 
     return (
         <>
-            <div id="hero" className="flex flex-col items-center lg:min-h-screen px-4 py-10 bg-gradient-to-br from-[#0f172a] via-[#0a0f1f] to-[#020617]">
+            <div id="hero" className="flex flex-col items-center px-4 py-10 bg-gradient-to-br from-[#0f172a] via-[#0a0f1f] to-[#020617]">
                 {/* Title and Paragraph */}
                 <div className="text-center">
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-cyan-400 mb-6 mt-15">
@@ -70,7 +69,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center mt-5">
+                <div className="flex items-center justify-center mt-5 min-h-[80px]">
                     <div className="bounce-arrow">
                         <FiChevronDown className="text-cyan-400 text-4xl" />
                     </div>

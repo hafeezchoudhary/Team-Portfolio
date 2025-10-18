@@ -69,7 +69,7 @@ const Project = () => {
         </div>
 
         {/* Featured Project */}
-        <div className="flex justify-center px-4 py-10">
+        <div className="flex justify-center px-4 py-10 max-w-fit">
           <div className="bg-[#0c1322] text-white rounded-2xl shadow-[0_0_2px_#00bfff99] hover:shadow-[0_0_25px_#00bfff99] transition-all duration-300 p-6 w-full flex flex-col lg:flex-row gap-8">
             {/* Left - Image */}
             <div className="flex-1 relative">
@@ -84,7 +84,7 @@ const Project = () => {
             </div>
 
             {/* Right - Content */}
-            <div className="flex-1 flex flex-col justify-center">
+            <div className="flex-1 flex flex-col justify-center ">
               <h2 className="text-3xl font-bold flex items-center gap-2">
                 <LuShield className="text-cyan-400" />
                 Password Manager

@@ -32,7 +32,7 @@ const Team = () => {
 
     return (
         <>
-            <div id="team" className="scroll-mt-20 flex flex-col items-center min-h-screen px-4 py-10 bg-[#060a16]">
+            <div id="team" className="scroll-mt-20 flex flex-col items-center px-4 py-10 bg-[#060a16]">
                 <div className="text-center">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cyan-400 mb-6">
                         Our Team
@@ -43,12 +43,12 @@ const Team = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col items-center lg:py-10 lg:px-4">
+                <div className="flex flex-col items-center lg:py-8 lg:px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl">
                         {teamMembers.map((member, index) => (
                             <div
                                 key={index}
-                                className="bg-gradient-to-b from-[#0a111e] via-[#070e1d] to-[#0c111a] rounded-2xl shadow-lg p-16 flex flex-col items-center text-center hover:shadow-cyan-400 hover:shadow-xl/20 hover:cursor-pointer transform transition-transform hover:-translate-y-2 duration-500">
+                                className="bg-gradient-to-b from-[#0a111e] via-[#070e1d] to-[#0c111a] rounded-2xl shadow-lg p-11 flex flex-col items-center text-center hover:shadow-cyan-400 hover:shadow-xl/20 hover:cursor-pointer transform transition-transform hover:-translate-y-2 duration-500">
 
                                 <h3 className="text-white text-xl font-semibold">{member.name}</h3>
                                 <p className="text-cyan-400 font-medium mb-3">{member.role}</p>
