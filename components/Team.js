@@ -10,7 +10,7 @@ const Team = () => {
             skills: ["React", "Next.js" , "Node.js", "JavaScript", "MongoDB", "Express", "Tailwind CSS"],
             github: "https://github.com/hafeezchoudhary",
             linkedin: "https://www.linkedin.com/in/hafeez-choudhary/",
-            resume: "https://drive.google.com/file/d/1VqernujDJXgNSgEvPpvvv4Il1VvKz6zj/view?usp=drive_link",
+            resume: "https://drive.google.com/file/d/1wlWGlXTStLxUCzT6ZPt0MUGtV61OUDrB/view?usp=drive_link",
         },
         {
             name: "Saurabh Khajekar",
@@ -45,7 +45,7 @@ const Team = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col items-center lg:py-8 lg:px-4">
+                <div className="flex flex-col items-center lg:py-16 lg:px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl">
                         {teamMembers.map((member, index) => (
                             <div
